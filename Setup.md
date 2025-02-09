@@ -1,0 +1,11 @@
+- npm install ethers react @openzeppelin/contracts
+- Replace "YOUR_CONTRACT_ADDRESS" with your deployed DeSciPlatform contract address
+- Create a contract ABI file:
+    - Go back to Remix or the preferred Solidity compiler
+    - In the "Solidity Compiler" tab
+    - Click on "Compilation Details"
+    - Copy the ABI
+    - Paste the ABI in the file named contractABI.js in your frontend project
+
+- cd frontend
+- npm start
